@@ -29,7 +29,7 @@ Timer.prototype.report = function(){
 	if(numseconds > 0){
 		var interval = (numseconds > 1)? " seconds ":" second ";
 		x = x.concat(numseconds+interval);
-	}else if(seconds = 0) {
+	}else if(seconds <= 0) {
 		x = x.concat(" less than a second");
 	}
 	return x;

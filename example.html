@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>timer-js example</title>
+	<script src="timer.js"></script>
+	<script>
+		function doSomething(){
+			var loop = new Timer();
+			var i = 0;
+			while (i != 1) {
+				i = Math.floor((Math.random() * 999999) + 1);
+			}
+			document.write('report(): '+loop.report()+'</br>');
+			document.write('reportMicro(): '+loop.reportMicro());
+		}
+		doSomething();
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
