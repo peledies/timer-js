@@ -2,6 +2,12 @@
 
 This package is used to time javascript events
 
+##Install
+
+Install via bower package manager (recomended)
+
+    bower install timer-js
+
 ##Methods
 ####report()
 Returns:
